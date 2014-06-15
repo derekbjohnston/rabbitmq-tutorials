@@ -24,7 +24,8 @@ public class Worker {
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 
         QueueingConsumer consumer = new QueueingConsumer(channel);
-        channel.basicConsume(QUEUE_NAME, true, consumer);
+        boolean autoAck = false;
+        channel.basicConsume(QUEUE_NAME, autoAck, consumer);
 
         while (true) {
             QueueingConsumer.Delivery delivery = consumer.nextDelivery();
@@ -33,6 +34,8 @@ public class Worker {
             System.out.println(" [x] Received '" + message + "'");
             doWork(message);
             System.out.println(" [x] Done");
+
+            channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
         }
     }
 }
