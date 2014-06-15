@@ -1,6 +1,7 @@
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import com.rabbitmq.client.MessageProperties;
 
 public class NewTask {
 
@@ -32,7 +33,7 @@ public class NewTask {
         channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
         String message = getMessage(argv);
 
-        channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
+        channel.basicPublish("", QUEUE_NAME, MessageProperties.PERSISTENT_TEXT_PLAIN, message.getBytes());
         System.out.println(" [x] Sent '" + message + "'");
 
         channel.close();

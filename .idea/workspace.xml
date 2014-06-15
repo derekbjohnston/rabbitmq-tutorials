@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a89ee42-f48f-450d-b8df-114a119be582" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewTask.java" afterPath="$PROJECT_DIR$/src/NewTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Worker.java" afterPath="$PROJECT_DIR$/src/Worker.java" />
     </list>
     <ignored path="rabbitmq-tutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="NewTask.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NewTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.6674473" vertical-offset="165" max-vertical-offset="660">
+            <state line="21" column="9" selection-start="744" selection-end="744" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -537,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.6674473" vertical-offset="165" max-vertical-offset="660">
+        <state line="21" column="9" selection-start="744" selection-end="744" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
