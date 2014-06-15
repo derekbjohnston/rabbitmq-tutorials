@@ -4,7 +4,7 @@ import com.rabbitmq.client.ConnectionFactory;
 
 public class NewTask {
 
-    private final static String QUEUE_NAME = "hello";
+    private final static String QUEUE_NAME = "task_queue";
 
     private static String getMessage(String[] strings){
         if (strings.length < 1)
@@ -28,9 +28,8 @@ public class NewTask {
         factory.setHost("localhost");
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
-
-        channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-
+        boolean durable = true;
+        channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
         String message = getMessage(argv);
 
         channel.basicPublish("", QUEUE_NAME, null, message.getBytes());

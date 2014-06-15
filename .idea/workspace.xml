@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a89ee42-f48f-450d-b8df-114a119be582" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewTask.java" afterPath="$PROJECT_DIR$/src/NewTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Worker.java" afterPath="$PROJECT_DIR$/src/Worker.java" />
     </list>
     <ignored path="rabbitmq-tutorials.iws" />
@@ -75,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewTask.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NewTask.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NewTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+            <state line="32" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.6674473" vertical-offset="165" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -93,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Worker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Worker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="645" selection-end="645" vertical-scroll-proportion="0.26229507" vertical-offset="128" max-vertical-offset="645">
+            <state line="21" column="0" selection-start="705" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -120,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/com/Send.java" />
         <option value="$PROJECT_DIR$/src/Recv.java" />
         <option value="$PROJECT_DIR$/src/Send.java" />
-        <option value="$PROJECT_DIR$/src/NewTask.java" />
         <option value="$PROJECT_DIR$/src/Worker.java" />
+        <option value="$PROJECT_DIR$/src/NewTask.java" />
       </list>
     </option>
   </component>
@@ -520,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/rabbitmq-client.jar!/com/rabbitmq/client/Channel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="21" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.3547558" vertical-offset="1452" max-vertical-offset="2295">
@@ -536,7 +530,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="645" selection-end="645" vertical-scroll-proportion="0.26229507" vertical-offset="128" max-vertical-offset="645">
+        <state line="21" column="0" selection-start="705" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.6674473" vertical-offset="165" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
