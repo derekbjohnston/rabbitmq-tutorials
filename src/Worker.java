@@ -23,7 +23,8 @@ public class Worker {
         boolean durable = true;
         channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
-
+        int prefetchCount = 1;
+        channel.basicQos(prefetchCount);
         QueueingConsumer consumer = new QueueingConsumer(channel);
         boolean autoAck = false;
         channel.basicConsume(QUEUE_NAME, autoAck, consumer);

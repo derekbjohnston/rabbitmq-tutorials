@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a89ee42-f48f-450d-b8df-114a119be582" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewTask.java" afterPath="$PROJECT_DIR$/src/NewTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Worker.java" afterPath="$PROJECT_DIR$/src/Worker.java" />
     </list>
     <ignored path="rabbitmq-tutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewTask.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NewTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="9" selection-start="744" selection-end="744" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="660">
+            <state line="20" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Worker.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Worker.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="705" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+            <state line="21" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.2974239" vertical-offset="143" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -120,13 +120,13 @@
         <option value="$PROJECT_DIR$/src/com/Send.java" />
         <option value="$PROJECT_DIR$/src/Recv.java" />
         <option value="$PROJECT_DIR$/src/Send.java" />
-        <option value="$PROJECT_DIR$/src/Worker.java" />
         <option value="$PROJECT_DIR$/src/NewTask.java" />
+        <option value="$PROJECT_DIR$/src/Worker.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="544" />
+    <option name="x" value="760" />
     <option name="y" value="22" />
     <option name="width" value="900" />
     <option name="height" value="746" />
@@ -408,8 +408,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="22" width="900" height="746" extended-state="0" />
-    <editor active="false" />
+    <frame x="760" y="22" width="900" height="746" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -429,7 +429,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3122222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32791728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32791728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -527,16 +527,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker.java">
+    <entry file="file://$PROJECT_DIR$/src/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="705" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="20" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewTask.java">
+    <entry file="file://$PROJECT_DIR$/src/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="744" selection-end="744" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="660">
+        <state line="21" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.2974239" vertical-offset="143" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
