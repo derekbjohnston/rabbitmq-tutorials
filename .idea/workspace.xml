@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a89ee42-f48f-450d-b8df-114a119be582" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Worker.java" afterPath="$PROJECT_DIR$/src/Worker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EmitLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReceiveLogs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rabbitmq-tutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,10 +77,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EmitLog.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmitLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="-0.030959751" vertical-offset="205" max-vertical-offset="750">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NewTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NewTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+            <state line="9" column="0" selection-start="252" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -87,16 +100,25 @@
       <file leaf-file-name="Recv.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="66" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="465">
+            <state line="25" column="66" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Worker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ReceiveLogs.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReceiveLogs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="55" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.2974239" vertical-offset="143" max-vertical-offset="675">
+            <state line="21" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -122,14 +144,16 @@
         <option value="$PROJECT_DIR$/src/Send.java" />
         <option value="$PROJECT_DIR$/src/NewTask.java" />
         <option value="$PROJECT_DIR$/src/Worker.java" />
+        <option value="$PROJECT_DIR$/src/ReceiveLogs.java" />
+        <option value="$PROJECT_DIR$/src/EmitLog.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="760" />
+    <option name="x" value="428" />
     <option name="y" value="22" />
     <option name="width" value="900" />
-    <option name="height" value="746" />
+    <option name="height" value="665" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -239,7 +263,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewTask">
+  <component name="RunManager" selected="Application.EmitLog">
     <configuration default="false" name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recv" />
       <option name="VM_PARAMETERS" />
@@ -291,6 +315,38 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmitLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmitLog" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tutorial-1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReceiveLogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReceiveLogs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tutorial-1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -374,17 +430,21 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Send" />
       <item index="1" class="java.lang.String" itemvalue="Application.Recv" />
       <item index="2" class="java.lang.String" itemvalue="Application.Worker" />
       <item index="3" class="java.lang.String" itemvalue="Application.NewTask" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EmitLog" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ReceiveLogs" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.NewTask" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Worker" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Recv" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.EmitLog" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReceiveLogs" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NewTask" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Worker" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Recv" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -408,8 +468,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="22" width="900" height="746" extended-state="0" />
-    <editor active="true" />
+    <frame x="428" y="22" width="900" height="665" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -429,7 +489,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3122222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32791728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37248322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -506,9 +566,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Send.java">
+    <entry file="jar://$PROJECT_DIR$/src/lib/rabbitmq-client.jar!/com/rabbitmq/client/Channel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="107" column="21" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.3547558" vertical-offset="1452" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
@@ -520,24 +587,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/rabbitmq-client.jar!/com/rabbitmq/client/Channel.class">
+    <entry file="file://$PROJECT_DIR$/src/Send.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="21" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.3547558" vertical-offset="1452" max-vertical-offset="2295">
+        <state line="18" column="25" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="9" column="0" selection-start="252" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker.java">
+    <entry file="file://$PROJECT_DIR$/src/ReceiveLogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.2974239" vertical-offset="143" max-vertical-offset="675">
+        <state line="8" column="55" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="555">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmitLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="-0.030959751" vertical-offset="205" max-vertical-offset="750">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
