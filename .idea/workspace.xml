@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a89ee42-f48f-450d-b8df-114a119be582" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EmitLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReceiveLogs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EmitLogDirect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReceiveLogsDirect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rabbitmq-tutorials.iws" />
@@ -72,18 +72,29 @@
         <entry file="file://$PROJECT_DIR$/src/Send.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="25" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmitLog.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmitLog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EmitLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="-0.030959751" vertical-offset="205" max-vertical-offset="750">
+            <state line="13" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="750">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmitLogDirect.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmitLogDirect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="21" selection-start="497" selection-end="497" vertical-scroll-proportion="0.43548387" vertical-offset="60" max-vertical-offset="780">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,6 +122,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="55" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="555">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReceiveLogsDirect.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReceiveLogsDirect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="765">
+              <folding>
+                <element signature="e#521#529#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +168,8 @@
         <option value="$PROJECT_DIR$/src/Worker.java" />
         <option value="$PROJECT_DIR$/src/ReceiveLogs.java" />
         <option value="$PROJECT_DIR$/src/EmitLog.java" />
+        <option value="$PROJECT_DIR$/src/ReceiveLogsDirect.java" />
+        <option value="$PROJECT_DIR$/src/EmitLogDirect.java" />
       </list>
     </option>
   </component>
@@ -263,39 +287,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmitLog">
-    <configuration default="false" name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recv" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tutorial-1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Worker" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tutorial-1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.EmitLogDirect">
     <configuration default="false" name="NewTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NewTask" />
       <option name="VM_PARAMETERS" />
@@ -336,6 +328,38 @@
     </configuration>
     <configuration default="false" name="ReceiveLogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReceiveLogs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tutorial-1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReceiveLogsDirect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReceiveLogsDirect" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tutorial-1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmitLogDirect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmitLogDirect" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -432,19 +456,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Send" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Recv" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Worker" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NewTask" />
-      <item index="4" class="java.lang.String" itemvalue="Application.EmitLog" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ReceiveLogs" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NewTask" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EmitLog" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReceiveLogs" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReceiveLogsDirect" />
+      <item index="5" class="java.lang.String" itemvalue="Application.EmitLogDirect" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.EmitLog" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReceiveLogs" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NewTask" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Worker" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Recv" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EmitLogDirect" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReceiveLogsDirect" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EmitLog" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReceiveLogs" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NewTask" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -482,7 +506,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Clojure REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -522,7 +546,9 @@
     <entry file="file://$PROJECT_DIR$/src/Send.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="405">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +562,9 @@
     <entry file="file://$PROJECT_DIR$/src/Send.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +618,9 @@
     <entry file="file://$PROJECT_DIR$/src/Send.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="25" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +631,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmitLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="750">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReceiveLogs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="55" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="555">
@@ -608,12 +647,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmitLog.java">
+    <entry file="file://$PROJECT_DIR$/src/ReceiveLogsDirect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="-0.030959751" vertical-offset="205" max-vertical-offset="750">
+        <state line="21" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="765">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#521#529#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmitLogDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="497" selection-end="497" vertical-scroll-proportion="0.43548387" vertical-offset="60" max-vertical-offset="780">
+          <folding />
         </state>
       </provider>
     </entry>
